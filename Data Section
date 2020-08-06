@@ -1,3 +1,0 @@
-## DATA
-
-Two URL's were generated to call the Foursquare venues for New York City and Toronto. The venues were collected by defining the longitude and latitude values for both cities, specifying a radius, and providing my client ID and secret from my FourSquare account into a URL. A json file of all the nearby venues was returned and the important information was tabulated in a pandas dataframe for each city.   
