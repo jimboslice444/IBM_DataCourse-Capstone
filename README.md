@@ -3,7 +3,7 @@
 ## Introduction/Business Problem
 What new venues will have the most success based on comparisons made between venue presence in Toronto and New York City. Foursquare location data will be used to find every type of venue in New York City and Toronto. By comparing the presence of different types of venues in NYC and Toronto, investors and business owners will be able to see potential opportunities for building new venues.
 
-## DATA 
+## Data Section 
 Two URL's were generated to call the Foursquare venues for New York City and Toronto. The venues were collected by defining the longitude and latitude values for each city, specifying a search radius, and providing my client ID and secret from my FourSquare account into a URL. A json file of all the nearby venues was returned and a count of the venues in each venue category was tabulated into a pandas dataframe for each city.
 
 ## Methodology
@@ -11,3 +11,8 @@ A comparison between every venue returned by FourSquare for Toronto and New York
 
 ## Results
 The results given in the Toronto vs. New York City Comparison dataframe show that the venue presence in New York is higher than Toronto even after adjusting for population and tourism. Although both cities have categories of low venue presence. For example, Toronto has few international type restaurants, no wine shop,and only one mobile phone shop. Whereas New York has few beer bars/stores and no aquarium. 
+
+## Discussion
+Ideally, the venue presence in each city is meant for business investors to seek new venue opportunities, but the venue data provides information about the character of each city and neighborhoods as well. For example, the large presence of pizza places in New York City confirms why New York style pizza is so famous, and the large presence of skating rinks in Toronto explains why so many professional hockey players are from Toronto.
+The venue presence comparison provides good information, but further analysis using more data, statistical measures, models, and visualizations would increase comparison accuracy and help the investor build a new venue in the perfect place. The higher presence of venues in New York City verses Toronto after adjustment, shows that the adjustment factor could be more precise. Ideally, a different adjustment factor should be made for each category type, since each venue appeals to the presence of different types of people. Although, the singular adjustment factor could have been improved by factoring in the GDP and suburb population of both cities. Comparisons to other cities could help with finding the average presence of a venue category; this would give a better mark for comparing to. Comparing one city to another could lead to misleading conclusions because one of the cities might have an abnormally high or low venue category compared to your typical city. More data would be beneficial. 
+Enough data, analysis, and visualizations are provided for an investor to make an educated decision. Although if I were investing my money, I would increase the accuracy of the venue adjustment factor iteratively by collecting the venues of other cities with Foursquare.
